@@ -9,5 +9,5 @@ let inputValue = "Stranger";
 input.addEventListener("input", (e) => {
     if (e.currentTarget.value === "") output.textContent = inputValue
     else output.textContent = e.currentTarget.value;
-})
+});
 
