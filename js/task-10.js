@@ -16,8 +16,8 @@ function createBoxes(number) {
     const box = document.createElement("div");
     box.classList.add("box");
     box.style.backgroundColor = `${getRandomHexColor()}`;
-    box.style.height = `${boxHeight + 10 * i}px`;
-    box.style.width = `${boxWidth + 10 * i}px`;
+    box.style.height = `${boxHeight + 10*i}px`;
+    box.style.width = `${boxWidth + 10*i}px`;
     box.style.borderBottom = box.style.borderLeft = box.style.borderRight = `${border}`;
     boxes.prepend(box);
   }
