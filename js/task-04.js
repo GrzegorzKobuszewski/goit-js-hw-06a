@@ -8,8 +8,9 @@ buttonDecrement.addEventListener("click", () => counter.textContent = counterVal
 buttonIncrement.addEventListener("click", () => counter.textContent = counterValue += 1);
 
 // Stylowanie kontenera z przyciskami i wywietlaną wartością
-document.querySelector(`div#counter`).padding = "10px";
-buttonIncrement.textColor = "red";
+buttonDecrement.style = 'padding: 16px;';
+buttonIncrement.style = 'padding: 16px;';
+counter.style = 'background-color: yellow; border: solid red 1px; border-radius: 5px; color: red; padding: 16px;';
 
 // Wyświetlnienie aktualnych wartości:
 //console.log(buttonDecrement.innerHTML);
